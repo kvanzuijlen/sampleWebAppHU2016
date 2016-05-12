@@ -11,6 +11,11 @@ public class IndexController {
         return "index";
     }
 
+    @RequestMapping("/Hangman")
+    public String Hangman(){
+    	return "Hangman";
+    }
+
     @RequestMapping("/snake")
     public String snake() {
         return "snake";
