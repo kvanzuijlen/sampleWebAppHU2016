@@ -19,4 +19,10 @@ public class IndexController {
 
     @RequestMapping("/calculator")
     public String calculator() { return "calculator"; }
+
+	@RequestMapping("/snake")
+	public String snake() {
+	    return "snake";
+	}
 }
+
