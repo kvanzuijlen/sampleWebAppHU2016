@@ -1,3 +1,4 @@
+
 package com.incentro.hogeschool;
 
 import org.springframework.stereotype.Controller;
@@ -16,4 +17,6 @@ public class IndexController {
     	return "Hangman";
     }
 
+    @RequestMapping("/calculator")
+    public String calculator() { return "calculator"; }
 }
