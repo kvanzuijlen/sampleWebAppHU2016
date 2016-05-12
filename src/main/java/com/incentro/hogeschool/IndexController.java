@@ -11,4 +11,9 @@ public class IndexController {
         return "index";
     }
 
+    @RequestMapping("/dankestmemes")
+    public String dankestmemes() {
+        return "dank-af";
+    }
+
 }
