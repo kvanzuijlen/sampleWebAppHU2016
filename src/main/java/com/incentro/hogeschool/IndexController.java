@@ -10,9 +10,13 @@ public class IndexController {
     public String index() {
         return "index";
     }
-    
+
     @RequestMapping("/snake")
     public String snake() {
         return "snake";
     }
+
+    @RequestMapping("/calculator")
+    public String calculator() { return "calculator"; }
+
 }
