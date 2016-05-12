@@ -10,9 +10,5 @@ public class IndexController {
     public String index() {
         return "index";
     }
-    
-    @RequestMapping("/snake")
-    public String snake() {
-        return "snake";
-    }
+
 }
