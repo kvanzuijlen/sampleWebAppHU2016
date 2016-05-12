@@ -19,4 +19,7 @@ public class IndexController {
     	return "Hangman";
     }
 
+    @RequestMapping("/calculator")
+    public String calculator() { return "calculator"; }
+
 }
